@@ -4,3 +4,8 @@ coverage/
 
 .vscode/
 .idea/
+
+node_modules/
+
+pnpm-lock.yaml
+README.md

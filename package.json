@@ -1,5 +1,5 @@
 {
-    "name": "node-ts-starter",
+    "name": "casinsight",
     "version": "0.0.1",
     "description": "A project starter or template to bootstrap nodejs projects and packages with Typescript, eslint and more.",
     "repository": {
@@ -45,7 +45,9 @@
     "scripts": {
         "build": "tsup",
         "dev": "tsup --watch",
-        "format": "prettier --write .",
+        "prettier": "prettier --write .",
+        "eslint": "eslint .",
+        "eslint:fix": "eslint . --fix",
         "test": "vitest run",
         "test:coverage": "vitest run --coverage",
         "test:watch": "vitest watch"
